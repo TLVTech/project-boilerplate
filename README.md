@@ -4,6 +4,7 @@
 
 Project Checklist
 - [ ] CI/CD Set up.
+- [ ] [Husky linter connected](https://dev.to/kreshby/keep-your-code-clean-with-eslint-prettier-pre-commit-and-pre-push-hooks-using-husky-lint-staged-and-pretty-quick-4fka)
 - [X] All required access (root, etc) is given to systems.
 - [ ] .env files are setup and included in the repository.
 - [ ] External library versions are pinned.
