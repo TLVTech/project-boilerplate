@@ -14,7 +14,8 @@ jobs:
         with:
           node-version: 18.x
           cache: yarn
-        
+      - name: typos-action
+        uses: crate-ci/typos@v1.25.0
       - name: 🏗 Setup EAS
         uses: expo/expo-github-action@v8
         with:

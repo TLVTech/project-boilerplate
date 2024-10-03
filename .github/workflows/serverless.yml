@@ -21,9 +21,10 @@ jobs:
         run: npm install
         working-directory: ./server
 
-      # - name: Serverless Deploy          
-      #   run: npx serverless deploy
-
+      - name: typos-action
+        uses: crate-ci/typos@v1.25.0
+        working-directory: ./server
+        
       # sls deploy
       - name: Serverless deploy
         uses: serverless/github-action@e17abe72d4969e86cb53576ade34e95c40362f0e

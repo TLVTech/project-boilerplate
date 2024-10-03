@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '9.8.0'
+      - name: typos-action
+        uses: crate-ci/typos@v1.25.0
       - run: npm install
         working-directory: ./modules/fe-personal-site
       - run: npm run build
