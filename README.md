@@ -3,15 +3,14 @@
 # [Project Checklist](https://tlvtech.io/) &middot; [![(Runtime) Build and Test](https://github.com/TLVTech/project-boilerplate/actions/workflows/runtime_build_and_test.yml/badge.svg)](https://github.com/TLVTech/project-boilerplate/actions/workflows/runtime_build_and_test.yml)
 
 Project Checklist
+- [ ] CI/CD Set up.
 - [X] All required access (root, etc) is given to systems.
-- [ ] Environments are documented.
+- [ ] .env files are setup and included in the repository.
 - [ ] External library versions are pinned.
-- [ ] Backups tested at least once.
 - [X] All scripts and tools can be found from documentation or version control.
-- [ ] Process flow diagrams are created for most common cases.
-- [ ] Monitoring is documented.
-- [ ] Support and Maintenance plans include clear steps for disasters.
-
+- [ ] Architecture document.
+- [ ] Monitoring is set up.
+- [ ] Infrastructure-as-code is set up.
 
 ## General architecture
 
