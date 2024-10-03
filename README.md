@@ -3,15 +3,15 @@
 # [Project Checklist](https://tlvtech.io/) &middot; [![(Runtime) Build and Test](https://github.com/TLVTech/project-boilerplate/actions/workflows/runtime_build_and_test.yml/badge.svg)](https://github.com/TLVTech/project-boilerplate/actions/workflows/runtime_build_and_test.yml)
 
 Project Checklist
-- [ ] CI/CD Set up.
+- [ ] [CI/CD Set up](https://github.com/TLVTech/project-boilerplate/tree/main/.github/workflows)
 - [ ] [Husky linter connected](https://dev.to/kreshby/keep-your-code-clean-with-eslint-prettier-pre-commit-and-pre-push-hooks-using-husky-lint-staged-and-pretty-quick-4fka)
-- [X] All required access (root, etc) is given to systems.
 - [ ] .env files are setup and included in the repository.
-- [ ] External library versions are pinned.
+- [ ] [External library versions are pinned](https://docs.easypost.com/guides/dependency-pinning-guide)
+- [X] All required access (root, etc) is given to systems.
 - [X] All scripts and tools can be found from documentation or version control.
-- [ ] Architecture document.
-- [ ] Monitoring is set up.
-- [ ] Infrastructure-as-code is set up.
+- [ ] [Architecture document](https://lucid.app/)
+- [ ] [Monitoring is set up](https://lumigo.io/)
+- [ ] [Infrastructure-as-code is set up](https://www.serverless.com/)
 
 ## General architecture
 
