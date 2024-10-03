@@ -4,7 +4,7 @@
 
 Project Checklist
 - [ ] [CI/CD Set up](https://github.com/TLVTech/project-boilerplate/tree/main/.github/workflows)
-- [ ] [Husky linter connected](https://dev.to/kreshby/keep-your-code-clean-with-eslint-prettier-pre-commit-and-pre-push-hooks-using-husky-lint-staged-and-pretty-quick-4fka)
+- [ ] [Linter connected](https://dev.to/kreshby/keep-your-code-clean-with-eslint-prettier-pre-commit-and-pre-push-hooks-using-husky-lint-staged-and-pretty-quick-4fka)
 - [ ] .env files are setup and included in the repository.
 - [ ] [External library versions are pinned](https://docs.easypost.com/guides/dependency-pinning-guide)
 - [X] All required access (root, etc) is given to systems.
