@@ -1,1 +1,44 @@
-# project-boilerplate
+<p align="center"><img src="https://user-images.githubusercontent.com/1479215/206780298-2b98221d-9c57-4cd3-866a-cf85ec1ddd9e.jpg" alt="TLVTech README Splash Image" /></p>
+
+# [Project Checklist](https://tlvtech.io/) &middot; [![(Runtime) Build and Test](https://github.com/TLVTech/project-boilerplate/actions/workflows/runtime_build_and_test.yml/badge.svg)](https://github.com/TLVTech/project-boilerplate/actions/workflows/runtime_build_and_test.yml)
+
+Project Checklist
+- [X] All required access (root, etc) is given to systems.
+- [ ] Environments are documented.
+- [ ] External library versions are pinned.
+- [ ] Backups tested at least once.
+- [X] All scripts and tools can be found from documentation or version control.
+- [ ] Process flow diagrams are created for most common cases.
+- [ ] Monitoring is documented.
+- [ ] Support and Maintenance plans include clear steps for disasters.
+
+
+## General architecture
+
+![architechture](https://user-images.githubusercontent.com/86567744/161579151-cdb97ccd-157c-440a-9fb2-ffaf4eef6e12.jpeg)
+
+## Local execution
+
+Here's how to run the project locally:
+
+```bash
+npm i
+npm run start
+```
+
+This example will run the backend.
+
+## External tools
+
+* [AWS](https://console.aws.amazon.com/console/home)
+* [Expo](https://expo.dev/)
+* [Sentry](https://sentry.io/)
+
+
+## Deployment
+
+Here's how to deploy the project:
+
+```bash
+sls deploy
+```
