@@ -12,6 +12,7 @@ Project Checklist
 - [ ] [Architecture document](https://lucid.app/)
 - [ ] [Monitoring is set up](https://lumigo.io/)
 - [ ] [Infrastructure-as-code is set up](https://www.serverless.com/)
+- [ ] [Postman collections included](https://www.postman.com/)
 
 ## General architecture
 
